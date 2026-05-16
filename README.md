@@ -85,11 +85,34 @@ A métrica de K-core permitiu avaliar a densidade e o núcleo rígido da cidade.
 
 ## 📝 Respostas às Questões Obrigatórias
 
-*(Preencha esta seção respondendo diretamente aos questionamentos solicitados pelo professor na especificação do projeto)*
+### 1.  Os nós com maior grau coincidem com os nós de maior betweenness?
+Não correspondem!
+### 2. O núcleo identificado pelo k-core coincide com os principais hubs?
 
-* **Questão 1:** [Sua resposta aqui]
-* **Questão 2:** [Sua resposta aqui]
-* **Questão 3:** [Sua resposta aqui]
+Sim, os principais hubs coincidem com o núcleo identificado pelo algoritmo de K-core, pois estão todos contidos nele. Contudo, essa coincidência se dá pela característica espacial da rede. O núcleo principal de Santa Cruz possui um core number máximo igual a 2, englobando 1643 nós (cerca de 82% da rede), o que na prática representa toda a malha urbana consolidada, excluindo praticamente as ramificações rurais.
+
+### 3. O que a métrica de betweenness revela que o grau não revela?
+O grau informa apenas a quantidade de ruas que se encontram em um ponto. Um cruzamento complexo ou uma rotatória com várias saídas terá um grau alto (ex: Grau 6). No entanto, uma via simples que seja a única ponte atravessando um rio ou rodovia para ligar dois grandes bairros terá apenas Grau 2 (uma entrada e uma saída), mas terá um betweenness gigantesco.
+
+Se ocorrer um acidente e um nó de alto grau for bloqueado, os motoristas geralmente conseguem fazer pequenos desvios nas ruas adjacentes do mesmo bairro. Porém, se um nó de alto betweenness for bloqueado, o impacto é sentido em escala municipal. O betweenness revela quais pontos, se inativados, poderiam literalmente isolar partes da cidade ou causar colapsos e desvios quilométricos no trânsito.
+
+### 4. O que muda quando a rede é analisada em sua posição geográfica real e quando é analisada por um layout estrutural?
+
+O layout geográfico posiciona os nós através de coordenadas de GPS, mostrando a distribuição espacial real, a densidade de ruas e as restrições físicas do terreno. Já o layout estrutural organiza os nós com base em sua conectividade, nele a proximidade visual não indica que duas ruas estão fisicamente perto, mas sim que estão fortemente interligadas ou pertencem à mesma comunidade de fluxo. Isso permite enxergar o 'núcleo funcional' da cidade, destacando cruzamentos críticos no centro visual e empurrando vias isoladas para a periferia, revelando a verdadeira hierarquia de mobilidade da rede.
+
+### 5. Existem regiões críticas para mobilidade urbana na área analisada?
+
+Sim, a análise topológica revelou regiões altamente críticas para a mobilidade de Santa Cruz. O maior ponto de vulnerabilidade e estrangulamento da rede (gargalo) está localizado no nó 7428327102, que lidera isoladamente as métricas de Betweenness e Closeness Centrality. Isso indica que este ponto funciona como a principal artéria de ligação do município; uma eventual interdição nesta via forçaria o redirecionamento de quase 15% de todas as rotas de trajeto mais curto da cidade. Além disso, identificamos pontos de alta complexidade física, como os nós 3964693509 e 3964715642, que possuem graus 6 e 5, respectivamente, caracterizando cruzamentos ou rotatórias de intenso conflito de direções que demandam atenção especial no planejamento de tráfego.
+
+### 6. A rede parece homogênea ou apresenta concentração estrutural?
+
+A homogeneidade topológica é comprovada pela métrica de K-core, onde 82,8% da rede (1643 nós) pertence ao mesmo núcleo básico (Core 2), e pelo grau máximo baixo (6), indicando uma cidade com padrão de conectividade uniforme e sem trevos de alta complexidade.
+
+Contudo, ao analisar a centralidade de Betweenness, nota-se uma clara concentração estrutural de roteamento. A existência de um nó por onde passam mais de 15% de todas as rotas mínimas da cidade demonstra que, embora as ruas tenham graus semelhantes, o tráfego é afunilado para gargalos específicos, criando uma forte dependência de poucas vias arteriais para a mobilidade global do município.
+
+### 7. Os resultados obtidos fazem sentido considerando o conhecimento urbano da região escolhida?
+
+Sim, os resultados fazem total sentido e refletem com precisão a realidade geográfica e urbanística da cidade.
 
 ---
 
