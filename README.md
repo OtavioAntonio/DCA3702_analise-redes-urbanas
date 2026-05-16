@@ -72,8 +72,8 @@ A métrica de K-core permitiu avaliar a densidade e o núcleo rígido da cidade.
 
 *Nota: As imagens abaixo foram geradas através do Gephi utilizando o arquivo `santa_cruz_rede_urbana.gexf`.*
 
-1. **Distribuição de Grau:**
-   > *(Insira aqui um print do gráfico de distribuição gerado no matplotlib)*
+1. **Distribuição Geográfica de Santa Cruz - RN:**
+   ![grafo de Santa Cruz - RN](./assets/GeoLayout.png)
 
 2. **Mapeamento de Gargalos (Betweenness):**
    > *(Insira aqui o print do Gephi com os nós coloridos/dimensionados pelo Betweenness)*
