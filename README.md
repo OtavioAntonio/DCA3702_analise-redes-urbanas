@@ -40,6 +40,14 @@ O fluxo de trabalho foi dividido nas seguintes etapas:
 Os nós de maior grau representam os cruzamentos mais complexos ou rotatórias com mais saídas. Na região analisada, o maior grau encontrado foi **6**.
 * **Top 1:** Nó ID `3964693509` (Grau: 6)
 * **Top 2:** Nó ID `3964715642` (Grau: 5)
+* **Top 3:** Nó ID `314993294` (Grau: 4)
+* **Top 4:** Nó ID `1828181337` (Grau: 4)
+* **Top 5:** Nó ID `2837621816` (Grau: 4)
+* **Top 6:** Nó ID `2837621823` (Grau: 4)
+* **Top 7:** Nó ID `2837621824` (Grau: 4)
+* **Top 8:** Nó ID `2837621832` (Grau: 4)
+* **Top 9:** Nó ID `2837621850` (Grau: 4)
+* **Top 3:** Nó ID `2837621855` (Grau: 4)
 
 ### 2. Gargalos da Rede (Betweenness Centrality)
 Mede a frequência com que um nó atua como ponte no caminho mais curto entre outros dois nós. Estes são os pontos de maior risco de congestionamento.
