@@ -75,11 +75,8 @@ A métrica de K-core permitiu avaliar a densidade e o núcleo rígido da cidade.
 1. **Distribuição Geográfica de Santa Cruz - RN:**
    ![grafo de Santa Cruz - RN](./assets/GeoLayout.png)
 
-2. **Mapeamento de Gargalos (Betweenness):**
-   > *(Insira aqui o print do Gephi com os nós coloridos/dimensionados pelo Betweenness)*
-
-3. **Comunidades / K-Core:**
-   > *(Insira aqui o print do Gephi mostrando as regiões da cidade divididas)*
+2. **Distribuição Estrutural de Santa Cruz - RN:**
+   ![grafo de Santa Cruz - RN](./assets/layoutForceAtlas2.png)
 
 ---
 
