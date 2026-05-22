@@ -1,6 +1,7 @@
 # Trabalho Prático – Estrutura de Dados II (DCA3702)
 **Análise Estrutural de Redes Urbanas com OSMnx, NetworkX e Gephi**
 
+---
 ## 📹 Apresentação em Vídeo
 Assista à explicação da metodologia, código e análise visual no vídeo abaixo:
 > **[🔗 Inserir Link do Vídeo no Loom Aqui]**
