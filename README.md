@@ -4,7 +4,7 @@
 ---
 ## 📹 Apresentação em Vídeo
 Assista à explicação da metodologia, código e análise visual no vídeo abaixo:
-> **[🔗[ Link para apresentação do projeto](https://www.loom.com/looms/videos/AED-PROJETO-II-a15c53f4775e4cbf8e2dcd33e8ce2b6b)]**
+> **[🔗[ Link para apresentação do projeto]([https://www.loom.com/looms/videos/AED-PROJETO-II-a15c53f4775e4cbf8e2dcd33e8ce2b6b](https://loom.com/share/folder/a15c53f4775e4cbf8e2dcd33e8ce2b6b))]**
 ---
 
 ## 🎯 Objetivo do Trabalho
