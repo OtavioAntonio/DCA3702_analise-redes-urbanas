@@ -1,6 +1,16 @@
 # Trabalho Prático – Estrutura de Dados II (DCA3702)
 **Análise Estrutural de Redes Urbanas com OSMnx, NetworkX e Gephi**
 
+## 📹 Apresentação em Vídeo
+Assista à explicação da metodologia, código e análise visual no vídeo abaixo:
+> **[🔗 Inserir Link do Vídeo no Loom Aqui]**
+---
+
+## 🎯 Objetivo do Trabalho
+O objetivo deste trabalho é modelar a rede viária da cidade de Santa Cruz (RN) como um grafo e aplicar métricas de análise de redes para compreender sua estrutura urbana. A análise busca identificar pontos de estrangulamento (gargalos de trânsito), as vias mais centrais, a conectividade geral do município e os cruzamentos mais importantes (hubs), facilitando o entendimento sobre a mobilidade local.
+
+---
+
 Este repositório contém o código, os dados gerados e a documentação referentes à análise topológica da malha viária urbana, utilizando conceitos de Teoria dos Grafos.
 
 ---
@@ -10,17 +20,6 @@ Este repositório contém o código, os dados gerados e a documentação referen
 **Tipo de Rede:** Viária (veículos/`drive`)  
 **Grafo Original (MultiDiGraph):** 1984 nós e 5346 arestas  
 **Grafo Convertido (Grafo Simples):** 1984 nós e 2783 arestas  
-
----
-
-## 📹 Apresentação em Vídeo
-Assista à explicação da metodologia, código e análise visual no vídeo abaixo:
-> **[🔗 Inserir Link do Vídeo no Loom Aqui]**
-
----
-
-## 🎯 Objetivo do Trabalho
-O objetivo deste trabalho é modelar a rede viária da cidade de Santa Cruz (RN) como um grafo e aplicar métricas de análise de redes para compreender sua estrutura urbana. A análise busca identificar pontos de estrangulamento (gargalos de trânsito), as vias mais centrais, a conectividade geral do município e os cruzamentos mais importantes (hubs), facilitando o entendimento sobre a mobilidade local.
 
 ---
 
